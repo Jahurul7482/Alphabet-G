@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+body{
+    background-color: whitesmoke;
+    overflow: hidden;
+}
+.container{
+    height: 90vh;
+    width: 90vw;
+    background-color: #aaa;
+    margin: auto;
+    position: relative;
+    top: calc(100vh/2 - 90vh/2);
+}
+.container .font{
+    height: 80vh;
+    width: 80vh;
+    position: relative;
+    margin: auto;
+}
+.container .font .g {
+    display: block;
+    text-align: center;
+    font-size: 80vh;
+    font-family: 'Lexend Deca', sans-serif;
+    background-image: conic-gradient(from -35deg at 35vh 55vh,red 0deg, red 90deg, blue 90deg,blue 180deg, green 180deg,green 270deg, yellow 270deg, yellow 360deg);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
